@@ -9,3 +9,5 @@ nosetests.xml
 coverage.xml
 __pycache__/
 *.py[cod]
+.artifacts
+.github
