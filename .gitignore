@@ -10,3 +10,5 @@ coverage.xml
 __pycache__/
 *.py[cod]
 .artifacts
+check.bat
+checknotest.bat
