@@ -69,7 +69,7 @@ extend-exclude = '''
 
 
 [tool.flake8]
-ignore = ["S101"]
+ignore = ["S101", "EXE001"]
 
 
 [tool.isort]
