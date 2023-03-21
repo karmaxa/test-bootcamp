@@ -1,0 +1,11 @@
+.idea
+/db.sqlite3
+*.log
+*.pot
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+__pycache__/
+*.py[cod]
