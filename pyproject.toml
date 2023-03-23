@@ -45,7 +45,11 @@ pep8-naming = "^0.13.0"
 pip = "^23.0"
 pytest = "^7.2.1"
 pytest-cov = "^4.0.0"
+pytest-django = "^4.5.2"
 python = "^3.11"
+requests = "^2.2.8.1"
+types-requests = "^2.28.11.16"
+types-urllib3 = "^1.26.25.8"
 
 
 [build-system]
@@ -103,6 +107,7 @@ exclude = [
 
 [tool.pytest.ini_options]
 cache_dir = ".artifacts/pytest/"
+DJANGO_SETTINGS_MODULE = "booklist.settings"
 console_output_style = "count"
 filterwarnings = [
     "ignore::DeprecationWarning",
@@ -110,4 +115,3 @@ filterwarnings = [
 testpaths = [
     "tests/test.py",
 ]
-addopts = "--cov --cov-branch --no-cov-on-fail --cov-fail-under=100"

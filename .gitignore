@@ -12,3 +12,4 @@ __pycache__/
 .artifacts
 check.bat
 checknotest.bat
+.coveragerc
