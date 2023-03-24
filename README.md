@@ -1,7 +1,10 @@
 # test-bootcamp
 test task for IT Academy Bootcamp
 
+
+
 API for hypothetical web service working as a book storage without any front-end.
+
 
 You need:
   - Poetry
@@ -37,5 +40,7 @@ paths:
   if author's name already exists in database it will not be created de novo no matter you add new author via /books/new/ nor /authors/new/.
 
 Language: Python
+
 Framework: Django
+
 Database: SQLite3
