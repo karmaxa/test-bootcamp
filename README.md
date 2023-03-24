@@ -28,15 +28,22 @@ here and forward I will use "http://127.0.0.1:8000" as host
 
 paths:
   -GET host/ -> main page
+  
   -GET host/books/ -> list of saved books with authors
+  
   -POST host/books/new/ -> saving new book
+  
     POST data:
       "title" for the title of the book
       "author" for the author(s) of the book. Separate multiple authors with commas or semicolons.
+      
   -GET host/authors/ -> list of saved authors
+  
   -POST host/authors/new/ -> saving new author
+  
     POST data:
       "name" for author name
+      
   if author's name already exists in database it will not be created de novo no matter you add new author via /books/new/ nor /authors/new/.
 
 Language: Python
